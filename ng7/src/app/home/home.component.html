@@ -1,0 +1,15 @@
+<h1 [class.gray]="h1style">Home</h1>
+
+<h2 [ngClass]="{
+  'gray': h1style,
+  'large': !h1style
+}">H2 Heading</h2>
+
+<h3 [style.color]="h1style ? 'gray' : 'red'">H3 Heading</h3>
+
+<h4 [ngStyle]="{
+  'color': h1style ? 'gray' : 'red',
+  'font-size': !h1style ? '1em'  : '4em'
+}">H4 Heading</h4>
+
+<button (click)="firstClick()">Click me</button>

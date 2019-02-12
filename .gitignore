@@ -1,0 +1,11 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+
+# dependencies
+/ng7/node_modules
+/angularjs/node_modules
+/angularjs/bower_components
+/angularjs/.bower-cache
+/angularjs/.bower-registry
+
+
