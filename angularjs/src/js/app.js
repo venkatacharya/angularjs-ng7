@@ -16,8 +16,8 @@
 				$rootScope.$stateParams = $stateParams;
 			}
 		])
-		.config(['$stateProvider', '$urlRouterProvider',
-			function($stateProvider, $urlRouterProvider) {
+		.config(['$stateProvider', '$locationProvider', '$urlRouterProvider',
+			function($stateProvider, $locationProvider, $urlRouterProvider) {
 
 				$urlRouterProvider.otherwise('/');
 
